@@ -3,6 +3,13 @@ body {
 }
 
 .container {
+  margin: 0.5em;
+  display: flex;
+  align-self: flex-start;
+  font-size: 5em;
   background-color: bisque;
   height: 20em; /* vh vw em rem */
+  width: fit-content;
+  height: 10em;
+  align-items: center;
 }

@@ -1,3 +1,19 @@
 body {
   background: white;
 }
+nav {
+  display: flex;
+  justify-content: flex-start;
+}
+nav a {
+  height: 3vh;
+  padding: 1em 1em;
+  background-color: rgb(8, 130, 130);
+  border-radius: 10px;
+  border-color: rgb(8, 243, 251);
+  border-style: solid;
+  box-shadow: 0.2em 0.2em 0.2em gray;
+  text-decoration: none;
+  color: antiquewhite;
+  margin: 1em;
+}
