@@ -12,11 +12,24 @@ body {
   display: none;
 }
 .item {
+  padding: 2em;
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+
 }
 .diamond {
+  width: 20px;
+  height: 20px;
+  background: white;
+  top: 50%;
+  left: 50%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+/*.diamond {
   width: 0;
   height: 0;
   border: 10px solid transparent;
@@ -33,10 +46,12 @@ body {
   height: 0;
   border: 10px solid transparent;
   border-top-color: white;
-}
+}*/
 .diamond p {
   position: relative;
-  align-items: center;
+  transform: rotate(45deg);
+  left: 25%;
+  top: 25%;
 }
 .item:nth-child(1) {
   background-color: blueviolet;
