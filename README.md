@@ -1,9 +1,39 @@
 # CSS Assignment
 
-Practice Flex and Grid system  - !
+Practice Flex and Grid system
+*HTML5* and *CSS* 
 
-## Requirements
+## Description
 
-1. Complete the styles.css files in each folder to produce the expect result
-2. There is one expected.png file in each folder, which shows the expected layout. Colors and spacing can be different, but layout is supposed to be similar.
-3. All the changes should be made to file .css only. Do not modify index.html
+1. Four main pages with different layouts
+
+2. Conatins :
+    - [x] grid
+    - [x] flex
+
+## Project structure
+```
+.
+├── README.md
+├── css-position1
+│   ├── expected.png
+│   ├── index.html
+│   └── styles.css
+├── css-position2
+│   ├── avatar.png
+│   ├── expected.png
+│   ├── index.html
+│   └── styles.css
+├── css-position3
+│   ├── expected.png
+│   ├── index.html
+│   └── styles.css
+└── css-position4
+    ├── expected.png
+    ├── index.html
+    └── styles.css
+```
+## Instructions
+Clone the repository 
+`git clone https://github.com/dwarfsuomalainen/css_flex_grid.git`
+
