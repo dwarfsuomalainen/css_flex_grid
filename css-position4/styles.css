@@ -9,18 +9,21 @@ body {
   grid-gap: 10px;
 }
 .tooltip {
-  display: none;
+display: none;
 }
-.item {
+.box :hover + .tooltip {
+  display: block;
+  color: black;
+}
+.item{
   padding: 2em;
   display: flex;
   justify-content: center;
   align-items: center;
-
 }
 .diamond {
   width: 20px;
-  height: 20px;
+  height: 20px; 
   background: white;
   top: 50%;
   left: 50%;
@@ -29,24 +32,6 @@ body {
   transform: rotate(-45deg);
   transform-origin: 0 100%;
 }
-/*.diamond {
-  width: 0;
-  height: 0;
-  border: 10px solid transparent;
-  border-bottom-color: white;
-  position: relative;
-  top: -10px;
-}
-.diamond:after {
-  content: "";
-  position: absolute;
-  left: -10px;
-  top: 10px;
-  width:0;
-  height: 0;
-  border: 10px solid transparent;
-  border-top-color: white;
-}*/
 .diamond p {
   position: relative;
   transform: rotate(45deg);
